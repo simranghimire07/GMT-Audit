@@ -1,0 +1,77 @@
+*,body,html{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        font-family: "inter-regular", sans-serif;
+}
+
+h1 {
+        font-family: "cabinet-bold", sans-serif; 
+}
+
+p{
+        font-family: "inter-regular";
+}
+
+@font-face {
+        font-family: "inter-regular";
+        src: url("/assets/fonts/Inter_18pt-Regular.ttf");
+}
+@font-face {
+        font-family: "inter-bold";
+        src: url("/assets/fonts/Inter_18pt-Bold.ttf");
+}
+@font-face {
+        font-family: "inter-semibold";
+        src: url("/assets/fonts/Inter_18pt-SemiBold.ttf");
+}
+@font-face {
+        font-family: "inter-medium";
+        src: url("/assets/fonts/Inter_18pt-Medium.ttf");
+}
+@font-face {
+        font-family: "cabinet-regular";
+        src: url("/assets/fonts/CabinetGrotesk-Regular.otf");
+}
+@font-face {
+        font-family: "cabinet-medium";
+        src: url("/assets/fonts/CabinetGrotesk-Medium.otf");
+}
+@font-face {
+        font-family: "cabinet-bold";
+        src: url("/assets/fonts/CabinetGrotesk-Bold.otf");
+}
+@font-face {
+        font-family: "cabinet-light";
+        src: url("/assets/fonts/CabinetGrotesk-Light.otf");
+}
+@font-face {
+        font-family: "cabinet-thin";
+        src: url("/assets/fonts/CabinetGrotesk-Thin.otf");
+}
+
+:root {
+        /* color */
+        --primary-text-color: #01373D;
+
+
+        /* font-size */
+        --font-0: 0;
+        --font-1: 10px;
+        --font-2: 12px;
+        --font-3: 14px;
+        --font-4: 16px;
+        --font-5: 18px;
+        --font-6: 24px;
+        --font-7: 28px;
+        --font-8: 30px;
+        --font-9: 32px;
+        --font-10: 36px;
+        --font-11: 40px;
+        --font-12: 44px;
+        --font-13: 48px;
+        --font-14: 52px;
+        --font-15: 56px;
+
+}
+
