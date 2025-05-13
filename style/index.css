@@ -5,12 +5,14 @@
         font-family: "inter-regular", sans-serif;
 }
 
-h1 {
+h1, h2, h3{
         font-family: "cabinet-bold", sans-serif; 
+        color: var(--text-color-text);
 }
 
 p{
-        font-family: "inter-regular";
+        font-family: "inter-regular", sans-serif;
+        color: var(--secondary-text-color);
 }
 
 @font-face {
@@ -52,7 +54,8 @@ p{
 
 :root {
         /* color */
-        --primary-text-color: #01373D;
+        --text-color-text: #01373D;
+        --secondary-text-color: #4A4E58;
 
 
         /* font-size */
@@ -73,5 +76,13 @@ p{
         --font-14: 52px;
         --font-15: 56px;
 
+}
+
+.hide-scrollbar {
+        scrollbar-width: none; /* Firefox */
+}
+    
+.hide-scrollbar::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
 }
 
