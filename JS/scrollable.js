@@ -18,6 +18,7 @@ function setupScrollControls(containerId, prevBtnId, nextBtnId) {
         nextBtn.addEventListener('click', () => scroll(1));
         container.addEventListener('scroll', updateButtons);
         window.addEventListener('load', updateButtons);
+        updateButtons();
 }
     
       setupScrollControls('scrollContainer1', 'scrollPrev1', 'scrollNext1');
